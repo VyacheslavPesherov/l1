@@ -8,6 +8,7 @@ build_job:
     - branches
   script:
     - 'cd ConsoleApp2'
+    - 'ls'
     - 'ConsoleApp2.sln'  
   artifacts:
     paths:
