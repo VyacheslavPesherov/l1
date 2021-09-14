@@ -9,6 +9,7 @@ build_job:
   script:
     - 'cd ConsoleApp2'
     - 'ls'
+    - '"ConsoleApp2.sln"'
     - 'ConsoleApp2.sln'  
   artifacts:
     paths:
