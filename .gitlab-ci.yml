@@ -7,11 +7,11 @@ build_job:
   only:
     - branches
   script:
-    - 'cd ConsoleApp2'
+    - 'cd\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp2.1
     - 'ls'
     - '\nuget.exe restore'
     - 'ls'
-    - '\ConsoleApp2.sln'  
+    - '\ConsoleApp2.sln start'  
   artifacts:
     paths:
       - 'ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe'
