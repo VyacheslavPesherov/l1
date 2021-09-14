@@ -8,7 +8,7 @@ build_job:
     - branches
   script:
     - 'cd ConsoleApp2'
-    - 'start ConsoleApp2.sln'  
+    - 'ConsoleApp2.sln'  
   artifacts:
     paths:
       - 'ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe'
