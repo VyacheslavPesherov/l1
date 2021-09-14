@@ -7,7 +7,7 @@ build_job:
   only:
     - branches
   script:
-    - 'cd\ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp2.1'
+    - 'cd \ConsoleApp2\ConsoleApp2\bin\Debug\netcoreapp2.1'
     - 'ls'
     - '\nuget.exe restore'
     - 'ls'
