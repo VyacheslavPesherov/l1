@@ -9,7 +9,7 @@ build_job:
   script:
     - 'cd ConsoleApp2'
     - 'ls'
-    - 'nuget.exe restore'
+    - '\nuget.exe restore'
     - 'ConsoleApp2.sln'  
   artifacts:
     paths:
